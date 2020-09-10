@@ -9,5 +9,3 @@ services:
     volumes:
       - /home/nnicore:/var/JunosConfigFiles:rw
     restart: always
-#    env_file:
-#      - /home/neutrona/ConfigFilesToGit/.env
