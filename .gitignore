@@ -1,0 +1,23 @@
+# Ignoring PyCharm temporary files
+*.pyc
+
+#Ignoring Windows temporary files
+*.tmp
+
+#Ignoring Virtual Env
+*venv
+*venv2
+
+#Ignoring log and output files
+*log.txt
+*.log
+*.png
+
+#Ignoring env files
+*.env
+
+#Ignoring cache files
+*.sqlite
+
+#Ignoring local dbs
+*.db

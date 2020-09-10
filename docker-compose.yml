@@ -1,0 +1,13 @@
+---
+
+version: '3'
+services:
+  config-producer:
+    image: config_producer
+    container_name: configfilestogit
+    build: .
+    volumes:
+      - /home/nnicore:/var/JunosConfigFiles:rw
+    restart: always
+#    env_file:
+#      - /home/neutrona/ConfigFilesToGit/.env
